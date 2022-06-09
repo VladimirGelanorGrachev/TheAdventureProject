@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hat-man-walk
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: af9fb62ad0683459fb0707715faf326f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1df3bc45aab8c47cfb1bf1567210f563, type: 3}
+  - {fileID: 21300000, guid: 36ef399a34e1d4d6e9fafe520195effc, type: 3}
+  - {fileID: 21300000, guid: 78be1d6bc5e4b405f97d09ff5db0addd, type: 3}
+  - {fileID: 21300000, guid: 90314b7c7aa62414ab04cd73b8033c58, type: 3}
+  - {fileID: 21300000, guid: 84c76ead687fd4774b85e6e8c56fe2b2, type: 3}
+  - {fileID: 21300000, guid: f44b19ddd98454d4b9dfcfa5db94d9b4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hat-man-walk-6
+  - hat-man-walk-2
+  - hat-man-walk-5
+  - hat-man-walk-3
+  - hat-man-walk-1
+  - hat-man-walk-4
+  m_RenderDataMap: {}
+  m_Tag: hat-man-walk
+  m_IsVariant: 0

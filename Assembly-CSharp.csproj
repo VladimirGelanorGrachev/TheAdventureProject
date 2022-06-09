@@ -56,14 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Root.cs" />
-    <Compile Include="Assets\Scripts\CharacterView.cs" />
-    <Compile Include="Assets\Scripts\BlockView.cs" />
     <Compile Include="Assets\Scripts\ParalaxManager.cs" />
-    <Compile Include="Assets\Scripts\Track.cs" />
+    <Compile Include="Assets\Scripts\BlockView.cs" />
+    <Compile Include="Assets\Scripts\CharacterView.cs" />
+    <Compile Include="Assets\Scripts\CustomAnimation.cs" />
     <Compile Include="Assets\Scripts\SpritesSequence.cs" />
     <Compile Include="Assets\Scripts\SpriteAnimationsConfig.cs" />
-    <Compile Include="Assets\Scripts\CustomAnimation.cs" />
+    <Compile Include="Assets\Scripts\Root.cs" />
+    <Compile Include="Assets\Scripts\Track.cs" />
+    <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
+    <Compile Include="Assets\Scripts\EnemyView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
