@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+
 [CreateAssetMenu(fileName = "SpriteAnimationsConfig", menuName = "Configs/SpriteAnimationsConfig")]
 public class SpriteAnimationsConfig : ScriptableObject
 {

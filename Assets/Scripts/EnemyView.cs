@@ -6,6 +6,7 @@ public class EnemyView : MonoBehaviour
 
     [SerializeField]
     private SpriteAnimationsConfig _spriteAnimatiionsConfig;
+
     private SpriteAnimator _spriteAnimator;
 
     public SpriteRenderer SpriteRenderer => spriteRenderer;

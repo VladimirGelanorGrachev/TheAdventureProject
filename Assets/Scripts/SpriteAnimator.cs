@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpriteAnimator : IDisposable
 {
     private SpriteAnimationsConfig _config;
+
     private Dictionary<SpriteRenderer, CustomAnimation> _activeAnimations = new Dictionary<SpriteRenderer, CustomAnimation>();
 
     public SpriteAnimator(SpriteAnimationsConfig config)

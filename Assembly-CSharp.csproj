@@ -64,8 +64,8 @@
     <Compile Include="Assets\Scripts\SpriteAnimationsConfig.cs" />
     <Compile Include="Assets\Scripts\Root.cs" />
     <Compile Include="Assets\Scripts\Track.cs" />
-    <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
     <Compile Include="Assets\Scripts\EnemyView.cs" />
+    <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
