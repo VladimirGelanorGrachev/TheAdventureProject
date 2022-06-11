@@ -57,15 +57,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ParalaxManager.cs" />
-    <Compile Include="Assets\Scripts\BlockView.cs" />
-    <Compile Include="Assets\Scripts\CharacterView.cs" />
+    <Compile Include="Assets\Scripts\View\BlockView.cs" />
+    <Compile Include="Assets\Scripts\View\CharacterView.cs" />
     <Compile Include="Assets\Scripts\CustomAnimation.cs" />
     <Compile Include="Assets\Scripts\SpritesSequence.cs" />
     <Compile Include="Assets\Scripts\SpriteAnimationsConfig.cs" />
     <Compile Include="Assets\Scripts\Root.cs" />
     <Compile Include="Assets\Scripts\Track.cs" />
-    <Compile Include="Assets\Scripts\EnemyView.cs" />
+    <Compile Include="Assets\Scripts\View\EnemyView.cs" />
     <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
+    <Compile Include="Assets\Scripts\View\BulletView.cs" />
+    <Compile Include="Assets\Scripts\AimingMuzzle.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\BulletsEmitter.cs" />
+    <Compile Include="Assets\Scripts\View\CannonView.cs" />
+    <Compile Include="Assets\Scripts\MainHeroWalker.cs" />
+    <Compile Include="Assets\Scripts\Utils.cs" />
+    <Compile Include="Assets\Scripts\PlayerConfigMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

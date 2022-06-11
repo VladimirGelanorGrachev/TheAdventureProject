@@ -15,7 +15,7 @@ public class EnemyView : MonoBehaviour
     private void EnemyTrack()
     {
         _spriteAnimator = new SpriteAnimator(_spriteAnimatiionsConfig);
-        _spriteAnimator.StartAnimation(SpriteRenderer, Track.Run, true, 10);
+        _spriteAnimator.StartAnimation(SpriteRenderer, Track.run, true, 10);
     }
 
     public void Update()

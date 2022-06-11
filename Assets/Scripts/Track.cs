@@ -1,8 +1,8 @@
 public enum Track
 {
-   Walk,
-   Idel,
-   Run,
-   Fire,
-   Jump
+   walk,
+   idle,
+   run,
+   fire,
+   jump
 }
