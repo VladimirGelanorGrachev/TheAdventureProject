@@ -36,7 +36,7 @@ public class Root : MonoBehaviour
         _spriteAnimator = new SpriteAnimator(_spriteAnimatiionsConfig);
         _mainHeroWalker = new MainHeroWalker(_characterView, _spriteAnimator);
         _aimingMuzzle = new AimingMuzzle(_cannonView.transform, _characterView.transform);
-        _bulletsEmitter = new BulletsEmitter(_bullets, _cannonView.MuzzleTransform);
+        _bulletsEmitter = new BulletsEmitter(_bullets, _cannonView.MuzzleTransform);        
     }
     private void Update()
     {

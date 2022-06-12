@@ -231,7 +231,8 @@ GameObject:
   - component: {fileID: 101847543}
   - component: {fileID: 101847542}
   - component: {fileID: 101847544}
-  m_Layer: 0
+  - component: {fileID: 101847545}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -319,6 +320,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 101847542}
   _playerConfig: {fileID: 11400000, guid: 98de23c2949219341b244e27af908d32, type: 2}
+--- !u!61 &101847545
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101847541}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.007297516, y: -0.032241777}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.39, y: 0.52}
+    newSize: {x: 0.39, y: 0.52}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.17108917, y: 0.45551643}
+  m_EdgeRadius: 0
 --- !u!1 &249520593
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,7 +454,7 @@ GameObject:
   - component: {fileID: 250406262}
   - component: {fileID: 250406261}
   - component: {fileID: 250406263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,7 +1233,7 @@ GameObject:
   - component: {fileID: 659570368}
   - component: {fileID: 659570367}
   - component: {fileID: 659570369}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1499,7 +1526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754627308}
   - component: {fileID: 754627307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1873,7 +1900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1259479858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CannonDulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2875,7 +2902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1808191631}
   - component: {fileID: 1808191630}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3152,7 +3179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2001499476}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
