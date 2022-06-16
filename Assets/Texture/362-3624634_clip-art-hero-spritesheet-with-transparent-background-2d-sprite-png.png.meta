@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: ccf46a90b144bd940bc294c2d412278c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gun-Man-Idle 1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a406269a1d400947af5806f7119ed7e
+      internalID: -1477809557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365dba4b414beba4d9f9a1c22470d5b5
+      internalID: -1379769056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 406
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975feb85ed07c884793049560d1e09f2
+      internalID: 470577880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9ac6f931b55d54e9f1a56963f246ac
+      internalID: 58822566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 5
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5cb5f5f312d6f4e9c7ed6095053b3e
+      internalID: -1796302443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 7
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87fda09fa22cae4fbf712061e81b15b
+      internalID: 1333326569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ee6aa9e9bfdff4f90d9eb8633d737b
+      internalID: 1476682615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Walk 1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 310
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdf6948141d7174da5f8f014e09d56d
+      internalID: 1976569464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Walk 2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 310
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbdfddd3ca5dd8479497b5945d6e4f6
+      internalID: 1912799622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Walk 3
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 310
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971f7c35b5c0a004b9f9d70f25a18046
+      internalID: -171634293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Walk 4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 310
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf28728592226de458357de2a3d72cb7
+      internalID: 1085090158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Walk 5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 310
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d72ceb3668f3c4a9f18a604978a3a8
+      internalID: 1941206588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Run 1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 215
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d86470c32d8ee448fafb56c05db538
+      internalID: -323653437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Run 2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 215
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78d044ceb2520c478b76ec52f42f488
+      internalID: -1677341724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Run 3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 215
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48566cebc8e4024c891646277fae15a
+      internalID: 867258066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Run 4
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 215
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35190f6f6836b1c41a8b7ab105cabd70
+      internalID: 1994584060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Run 5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 215
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4f007e3a634fe47b8eec4b52ed30f4
+      internalID: -538260230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Jump 1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 128
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b23950d90b00f439864cb5a95d8e7a
+      internalID: 47454632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Jump 2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f892e576884249b43bab067efe598
+      internalID: 1749862100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Jump 3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 128
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed9be2fdbe46f2448283891f6e395ec
+      internalID: 1795744320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Death 1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 128
+        width: 52
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7af6bd4c8a91341861ed6ec2b287a6
+      internalID: -892349058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Death 2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 128
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf15718622a16d449980c9c3d4dada65
+      internalID: -510423410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Death 4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 128
+        width: 87
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bf0d9caea385b47a9ca1fea42c20ee
+      internalID: -514667551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Idle 6
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 405
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8c5c127800c894b8d4e161ce0e0f9e
+      internalID: -516497871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Walk 6
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 310
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ad40e1eaa2f924f98becb6e328c478
+      internalID: -1322389060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Run 6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 215
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dccb3c6bc617648b7e2b5634da7db5
+      internalID: -395510162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-Death 3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f4a921c2e31b549bc5bb21878a8337
+      internalID: -276838264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-crouch 1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 40
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b76958ce36734595941101d27f232
+      internalID: 211956221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun-Man-crouch 2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 40
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bddd268d3e9614cbebebff46098dd6
+      internalID: 2130650083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gun-Man-Idle 6: -516497871
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_50: -1199795149
+      Gun-Man-Run 4: 1994584060
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_38: -329816870
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_0: -1812103561
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_43: -1659483752
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_62: -369773361
+      Gun-Man-Idle 2: -1379769056
+      Gun-Man-Run 5: -538260230
+      Gun-Man-Jump 1: 47454632
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_26: -1499735017
+      Gun-Man-Idle 3: 470577880
+      Gun-Man-Death 4: -514667551
+      Gun-Man-Idle 4: 58822566
+      Gun-Man-Jump 2: 1749862100
+      Gun-Man-Jump 3: 1795744320
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_42: 2140688904
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_65: -864027254
+      Gun-Man-Walk 1: 1976569464
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_9: -2087141085
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_27: -894185293
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_35: 136964897
+      Gun-Man-Walk 3: -171634293
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_60: -1623711738
+      Gun-Man-Run 6: -395510162
+      Gun-Man-Death 3: -276838264
+      Gun-Man-Death 1: -892349058
+      Gun-Man-Walk 5: 1941206588
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_64: -1249233330
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_16: -1841834521
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_47: 903813384
+      Gun-Man-Run 1: -323653437
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_40: -28644749
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_25: -1282416126
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_13: 1649689872
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_53: -1817926725
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_44: -55539729
+      Gun-Man-Idle 7: 1333326569
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_30: 305762570
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_55: 1621527544
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_17: -318607530
+      Gun-Man-Idle 8: 1476682615
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_37: 1041756120
+      Gun-Man-Run 2: -1677341724
+      Gun-Man-Death 2: -510423410
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_59: 391226567
+      Gun-Man-Idle 1: -1477809557
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_48: -1655802212
+      Gun-Man-Run 3: 867258066
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_63: -2120634624
+      Gun-Man-crouch 1: 211956221
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_61: 1052473666
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_39: -1548005143
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_58: -289199584
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_52: 1174377497
+      Gun-Man-crouch 2: 2130650083
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_18: -795622286
+      Gun-Man-Walk 4: 1085090158
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_41: -987019745
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_54: -887375355
+      Gun-Man-Walk 2: 1912799622
+      Gun-Man-Walk 6: -1322389060
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_36: -1322506492
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_5: -1257608402
+      Gun-Man-Idle 5: -1796302443
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_24: -1007556905
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

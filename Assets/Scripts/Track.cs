@@ -4,5 +4,7 @@ public enum Track
    idle,
    run,
    fire,
-   jump
+   jump,
+   crouch,
+   death
 }
