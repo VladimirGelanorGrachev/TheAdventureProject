@@ -1,17 +1,15 @@
 using UnityEngine;
 
 public class IsDeath
-{
-    private CharacterView _characterView;
-    private float Health = 100;
-    private void OnTriggerEnter(Collider other)
+{      
+    private void OnTriggerEnter(Collider collider)
     {
-        if (other.CompareTag("IsDeath"))
+        if (collider.CompareTag("Player"))
         {
             Debug.Log("IsDeath");
         }
     }
     public void Update()
-    {
+    {        
     }
 }

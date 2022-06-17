@@ -17,6 +17,9 @@ public class CharacterView : MonoBehaviour
     [SerializeField]
     private bool _isDeath = false;
 
+    [SerializeField]
+    private bool _isTrigger = false;
+
      public SpriteRenderer SpriteRenderer => spriteRenderer;
 
     public PlayerConfigMenu PlayerConfig => _playerConfig;

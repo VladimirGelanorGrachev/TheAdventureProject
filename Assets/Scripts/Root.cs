@@ -24,6 +24,9 @@ public class Root : MonoBehaviour
     [SerializeField]
     private List<BulletView> _bullets;
 
+    [SerializeField]
+    private List<TriggerView> _triggers;
+
 
     private ParalaxManager _paralaxManager;
     private SpriteAnimator _spriteAnimator;
@@ -43,7 +46,7 @@ public class Root : MonoBehaviour
         _paralaxManager.Update();
         _spriteAnimator.Update();        
         _aimingMuzzle.Update();
-        _bulletsEmitter.Update();
+        _bulletsEmitter.Update();        
         _enemyView.Update();        
     }
     private void FixedUpdate()
