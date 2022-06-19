@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainHeroPhysicsWalker
@@ -55,5 +53,11 @@ public class MainHeroPhysicsWalker
             _spriteAnimator.StartAnimation(_characterView.SpriteRenderer, Track.jump, true,
                 _characterView.PlayerConfig.AnimationsSpeed);
         }
+
+        //if (_contactsPoller.IsGrounded && _jumpStartSpeed && Mathf.Abs(_characterView.Rigidbody2D.velocity.y - _contactsPoller.GroundVelocity.y) <= _characterView.PlayerConfig._flyTresh)
+        //{
+        //    _view.Rigidbody2D.AddForce(Vector3.up * _jumpForse);
+        //}
+
     }
 }

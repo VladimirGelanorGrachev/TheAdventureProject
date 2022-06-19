@@ -32,14 +32,16 @@ public class Root : MonoBehaviour
     private SpriteAnimator _spriteAnimator;
     private MainHeroPhysicsWalker _mainHeroWalker;
     private AimingMuzzle _aimingMuzzle;
-    private BulletsEmitter _bulletsEmitter;    
+    private BulletsEmitter _bulletsEmitter;
+    //private Finish _finishTrigger;
     private void Start()
     {
         _paralaxManager = new ParalaxManager(_camera,_background.transform);
         _spriteAnimator = new SpriteAnimator(_spriteAnimatiionsConfig);
         _mainHeroWalker = new MainHeroPhysicsWalker(_characterView, _spriteAnimator);
         _aimingMuzzle = new AimingMuzzle(_cannonView.transform, _characterView.transform);
-        _bulletsEmitter = new BulletsEmitter(_bullets, _cannonView.MuzzleTransform);        
+        _bulletsEmitter = new BulletsEmitter(_bullets, _cannonView.MuzzleTransform);
+        //_finishTrigger = new Finish(,);
     }
     private void Update()
     {        

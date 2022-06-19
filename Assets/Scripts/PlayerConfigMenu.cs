@@ -25,13 +25,18 @@ public class PlayerConfigMenu : ScriptableObject
     [SerializeField]
     private float _acceleration = -10f;
 
+    [SerializeField]
+    private float _jumpForse = 30f;
 
-    
+
+
+
     public float WalkSpeed => _walkSpeed;
     public float AnimationsSpeed => _animationsSpeed;
     public float JumpStartSpeed => _jumpStartSpeed;
     public float MovingTresh => _movingTresh;
     public float FlyTresh => _flyTresh;
     public float GroundLevel => _groundLevel;
-    public float Acceleration => _acceleration;   
+    public float Acceleration => _acceleration;
+    public float JumpForse => _jumpForse;
 }

@@ -5,11 +5,13 @@ public class ContactsPoller
     private const float _collisionTresh = 0.1f;
 
     private ContactPoint2D[] _contacts = new ContactPoint2D[10];
-    private Collider2D _collider2D;
+    private Collider2D _collider2D;    
 
     public bool IsGrounded { get; private set; }
+    public object GroundVelocity { get; private set; }
     public bool HasLeftContacts { get; private set; }
     public bool HasRightContacts { get; private set; }
+    //public float CollisionNormalThresh { get; private set; }
 
     public ContactsPoller(Collider2D collider2D)
     {
@@ -37,6 +39,12 @@ public class ContactsPoller
 
             if (normal.x < -_collisionTresh && rigidbody == null)
                 HasRightContacts = true;
+
+            //if (normal.y > CollisionNormalThresh)
+            //{
+            //    IsGrounded = true;
+            //    GroundVelocity = rigidbody.velocity;
+            //}
         }
-    }
+}
 }

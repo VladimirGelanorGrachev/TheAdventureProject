@@ -15,14 +15,12 @@ public class CharacterView : MonoBehaviour
     private Collider2D _collider;
 
     [SerializeField]
-    private bool _isDeath = false;
+    private bool _isDeath;    
 
-    [SerializeField]
-    private bool _isTrigger = false;
-
-     public SpriteRenderer SpriteRenderer => spriteRenderer;
+    public SpriteRenderer SpriteRenderer => spriteRenderer;
 
     public PlayerConfigMenu PlayerConfig => _playerConfig;
     public Collider2D Collider => _collider;
     public Rigidbody2D Rigidbody => _rigidbody;
+    public bool IsDeath => _isDeath;
 }
