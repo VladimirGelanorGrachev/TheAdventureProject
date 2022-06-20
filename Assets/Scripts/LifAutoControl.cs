@@ -8,7 +8,13 @@ public class LifAutoControl : MonoBehaviour
     private GameObject _lift;
 
     [SerializeField]
-    private SliderJoint2D _sliderJoint;  
+    private SliderJoint2D _sliderJoint;
+
+    [SerializeField]
+    private GameObject _player;
+
+    [SerializeField]
+    private bool _contacts;
        
     void Start()
     {
@@ -20,6 +26,8 @@ public class LifAutoControl : MonoBehaviour
     {
         
     }
+   
+
 }
 
 

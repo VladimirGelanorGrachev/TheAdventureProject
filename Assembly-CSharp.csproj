@@ -60,17 +60,21 @@
     <Compile Include="Assets\Scripts\BulletsEmitter.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\ContactsPoller.cs" />
+    <Compile Include="Assets\Scripts\LiftsManager.cs" />
     <Compile Include="Assets\Scripts\View\TriggerView.cs" />
+    <Compile Include="Assets\Scripts\LifAutoControl.cs" />
     <Compile Include="Assets\Scripts\View\BlockView.cs" />
     <Compile Include="Assets\Scripts\View\BulletView.cs" />
     <Compile Include="Assets\Scripts\PlayerConfigMenu.cs" />
     <Compile Include="Assets\Scripts\View\CharacterView.cs" />
     <Compile Include="Assets\Scripts\IsDeath.cs" />
+    <Compile Include="Assets\Scripts\View\LevelObjectView.cs" />
     <Compile Include="Assets\Scripts\CustomAnimation.cs" />
     <Compile Include="Assets\Scripts\SpritesSequence.cs" />
     <Compile Include="Assets\Scripts\View\CannonView.cs" />
     <Compile Include="Assets\Scripts\AimingMuzzle.cs" />
     <Compile Include="Assets\Scripts\MainHeroPhysicsWalker.cs" />
+    <Compile Include="Assets\Scripts\LiftView.cs" />
     <Compile Include="Assets\Scripts\SpriteAnimationsConfig.cs" />
     <Compile Include="Assets\Scripts\Root.cs" />
     <Compile Include="Assets\Scripts\Finish.cs" />
@@ -79,10 +83,7 @@
     <Compile Include="Assets\Scripts\View\EnemyView.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
     <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
-    <Compile Include="Assets\Scripts\LiftsManager.cs" />
-    <Compile Include="Assets\Scripts\View\LevelObjectView.cs" />
-    <Compile Include="Assets\Scripts\LifAutoControl.cs" />
-    <Compile Include="Assets\Scripts\LiftView.cs" />
+    <Compile Include="Assets\Scripts\TriggerTerst.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
