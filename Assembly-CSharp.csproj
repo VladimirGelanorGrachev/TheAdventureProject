@@ -57,33 +57,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ParalaxManager.cs" />
-    <Compile Include="Assets\Scripts\BulletsEmitter.cs" />
-    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Gun\BulletsEmitter.cs" />
+    <Compile Include="Assets\Scripts\Gun\Bullet.cs" />
+    <Compile Include="Assets\Scripts\AI\AIPatrolPath.cs" />
     <Compile Include="Assets\Scripts\ContactsPoller.cs" />
     <Compile Include="Assets\Scripts\LiftsManager.cs" />
     <Compile Include="Assets\Scripts\View\TriggerView.cs" />
+    <Compile Include="Assets\Scripts\LevelObjectTrigger.cs" />
+    <Compile Include="Assets\Scripts\TriggerTerst.cs" />
+    <Compile Include="Assets\Scripts\Interface\IProtector.cs" />
+    <Compile Include="Assets\Scripts\AI\PatrolAIModel.cs" />
     <Compile Include="Assets\Scripts\LifAutoControl.cs" />
     <Compile Include="Assets\Scripts\View\BlockView.cs" />
     <Compile Include="Assets\Scripts\View\BulletView.cs" />
-    <Compile Include="Assets\Scripts\PlayerConfigMenu.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerConfigMenu.cs" />
     <Compile Include="Assets\Scripts\View\CharacterView.cs" />
     <Compile Include="Assets\Scripts\IsDeath.cs" />
     <Compile Include="Assets\Scripts\View\LevelObjectView.cs" />
     <Compile Include="Assets\Scripts\CustomAnimation.cs" />
-    <Compile Include="Assets\Scripts\SpritesSequence.cs" />
+    <Compile Include="Assets\Scripts\AI\ProtectorAI.cs" />
+    <Compile Include="Assets\Scripts\AI\AIConfig.cs" />
+    <Compile Include="Assets\Scripts\SpriteScripts\SpritesSequence.cs" />
     <Compile Include="Assets\Scripts\View\CannonView.cs" />
-    <Compile Include="Assets\Scripts\AimingMuzzle.cs" />
-    <Compile Include="Assets\Scripts\MainHeroPhysicsWalker.cs" />
+    <Compile Include="Assets\Scripts\AI\SimplePatrolAI.cs" />
+    <Compile Include="Assets\Scripts\AI\SimplePatrolAIModel.cs" />
+    <Compile Include="Assets\Scripts\Gun\AimingMuzzle.cs" />
+    <Compile Include="Assets\Scripts\Player\MainHeroPhysicsWalker.cs" />
     <Compile Include="Assets\Scripts\LiftView.cs" />
-    <Compile Include="Assets\Scripts\SpriteAnimationsConfig.cs" />
+    <Compile Include="Assets\Scripts\ProtectedZone.cs" />
+    <Compile Include="Assets\Scripts\SpriteScripts\SpriteAnimationsConfig.cs" />
     <Compile Include="Assets\Scripts\Root.cs" />
     <Compile Include="Assets\Scripts\Finish.cs" />
     <Compile Include="Assets\Scripts\Track.cs" />
-    <Compile Include="Assets\Scripts\MainHeroWalker.cs" />
+    <Compile Include="Assets\Scripts\Player\MainHeroWalker.cs" />
     <Compile Include="Assets\Scripts\View\EnemyView.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
-    <Compile Include="Assets\Scripts\SpriteAnimator.cs" />
-    <Compile Include="Assets\Scripts\TriggerTerst.cs" />
+    <Compile Include="Assets\Scripts\SpriteScripts\SpriteAnimator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -334,6 +343,9 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>Assets\AstarPathfindingProject\Plugins\DotNetZip\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
@@ -850,6 +862,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{CEE6CCC4-972A-6680-9AA2-E433AD1496AA}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{6995797E-FC1E-778A-D01A-3F4006F7EEB6}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{99AF1700-BC46-DC6F-9FDE-9D317C133CBD}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -7,10 +7,14 @@ public class EnemyView : MonoBehaviour
     [SerializeField]
     private SpriteAnimationsConfig _spriteAnimatiionsConfig;
 
+    [SerializeField]
+    private Rigidbody2D _rigidbody;
+
     private SpriteAnimator _spriteAnimator;
 
     public SpriteRenderer SpriteRenderer => spriteRenderer;
 
+    public Rigidbody2D Rigidbody => _rigidbody;
 
     private void EnemyTrack()
     {
