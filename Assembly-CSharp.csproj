@@ -64,10 +64,8 @@
     <Compile Include="Assets\Scripts\LiftsManager.cs" />
     <Compile Include="Assets\Scripts\View\TriggerView.cs" />
     <Compile Include="Assets\Scripts\LevelObjectTrigger.cs" />
-    <Compile Include="Assets\Scripts\TriggerTerst.cs" />
     <Compile Include="Assets\Scripts\Interface\IProtector.cs" />
     <Compile Include="Assets\Scripts\AI\PatrolAIModel.cs" />
-    <Compile Include="Assets\Scripts\LifAutoControl.cs" />
     <Compile Include="Assets\Scripts\View\BlockView.cs" />
     <Compile Include="Assets\Scripts\View\BulletView.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerConfigMenu.cs" />
