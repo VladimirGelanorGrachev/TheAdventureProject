@@ -6,6 +6,7 @@ TagManager:
   tags:
   - StartPosition
   - IsDeath
+  - Generated
   layers:
   - Default
   - TransparentFX

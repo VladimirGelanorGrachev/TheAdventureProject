@@ -91,6 +91,12 @@
     <Compile Include="Assets\Scripts\View\EnemyView.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
     <Compile Include="Assets\Scripts\SpriteScripts\SpriteAnimator.cs" />
+    <Compile Include="Assets\Scripts\TileMapScripts\GenerateLevelView.cs" />
+    <Compile Include="Assets\Scripts\TileMapScripts\GenerateLevelController.cs" />
+    <Compile Include="Assets\Scripts\TileMapScripts\GenerateLevel.cs" />
+    <Compile Include="Assets\Scripts\TileMapScripts\MarchingSquaresGeneratorLevel.cs" />
+    <Compile Include="Assets\Scripts\TestLevelGenerator\LevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\TestLevelGenerator\ColorToPrefab.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
