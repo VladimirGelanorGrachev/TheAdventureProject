@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!20 &169612147 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2013930038126716101, guid: 51956c870604606448a88c968a173850, type: 3}
+  m_PrefabInstance: {fileID: 1747762107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &520905106
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +287,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077769523}
   - component: {fileID: 1077769522}
+  - component: {fileID: 1077769524}
   m_Layer: 0
   m_Name: Root
   m_TagString: Untagged
@@ -323,6 +329,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1077769524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077769521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc89ef64016a264192e5ba13a611bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 169612147}
+  _background: {fileID: 520905108}
+  _characterView: {fileID: 1907954095}
+  _spriteAnimatiionsConfig: {fileID: 11400000, guid: 791fb8188f174474d8eb85940835b345, type: 2}
+  _enemyView: {fileID: 0}
+  _cannonView: {fileID: 0}
+  _bullets: []
+  _simplePatrolAIConfig:
+    Speed: 0
+    MinDistanceToTarget: 0
+    Waypoints: []
+  _protectorAIDestinationSetter: {fileID: 0}
+  _protectorAIPatrolPath: {fileID: 0}
+  _protectedZoneTrigger: {fileID: 0}
+  _protectorWaypoints: []
 --- !u!1 &1572101240
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,3 +542,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2013930038276099405, guid: 51956c870604606448a88c968a173850, type: 3}
   m_PrefabInstance: {fileID: 1747762107}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1907954095 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2013930038276099394, guid: 51956c870604606448a88c968a173850, type: 3}
+  m_PrefabInstance: {fileID: 1747762107}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef64768507b591a49952b3cc764cbef8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

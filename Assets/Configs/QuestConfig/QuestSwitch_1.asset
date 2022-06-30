@@ -9,13 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f11c4e3f13014734ab652eb9f5b16af5, type: 3}
-  m_Name: PlayerConfigMenu
+  m_Script: {fileID: 11500000, guid: 5de3eed2694bef24ba916ea9a96290e2, type: 3}
+  m_Name: QuestSwitch_1
   m_EditorClassIdentifier: 
-  _walkSpeed: 50
-  _animationsSpeed: 6
-  _jumpStartSpeed: 150
-  _movingTresh: 0.1
-  _flyTresh: 0.3
-  _groundLevel: 0.1
-  _acceleration: -10
+  _id: 1
+  _questType: 0
