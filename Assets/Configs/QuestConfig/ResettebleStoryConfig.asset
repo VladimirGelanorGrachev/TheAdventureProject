@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f52944eac3d41444b0fb0765f0bee21, type: 3}
+  m_Name: ResettebleStoryConfig
+  m_EditorClassIdentifier: 
+  _quests:
+  - {fileID: 11400000, guid: 1455269fbb29fe24ebcf5d20846569d9, type: 2}
+  - {fileID: 11400000, guid: 8da8cdd22517bb74ba3d9028aa7003b0, type: 2}
+  - {fileID: 11400000, guid: 1c4e63b10cd68074389b6aef5c09f10e, type: 2}
+  - {fileID: 11400000, guid: 774f104fabfd3184da3e8e550e9e657c, type: 2}
+  - {fileID: 11400000, guid: 55fb5af0e32ec024886b8f249c289c7a, type: 2}
+  _questStoryType: 1

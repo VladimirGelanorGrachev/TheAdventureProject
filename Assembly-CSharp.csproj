@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\TestLevelGenerator\LevelGenerator.cs" />
     <Compile Include="Assets\Scripts\ParalaxManager.cs" />
+    <Compile Include="Assets\Scripts\Quests\QuestObjectView.cs" />
     <Compile Include="Assets\Scripts\TileMapScripts\MarchingSquaresGeneratorLevel.cs" />
     <Compile Include="Assets\Scripts\Gun\BulletsEmitter.cs" />
     <Compile Include="Assets\Scripts\TileMapScripts\GenerateLevelController.cs" />
@@ -65,10 +66,13 @@
     <Compile Include="Assets\Scripts\TileMapScripts\GenerateLevel.cs" />
     <Compile Include="Assets\Scripts\AI\AIPatrolPath.cs" />
     <Compile Include="Assets\Scripts\ContactsPoller.cs" />
+    <Compile Include="Assets\Scripts\Quests\SwitchQuestModel.cs" />
     <Compile Include="Assets\Scripts\LiftsManager.cs" />
     <Compile Include="Assets\Scripts\View\TriggerView.cs" />
     <Compile Include="Assets\Scripts\Quests\QuestItemsConfig.cs" />
+    <Compile Include="Assets\Scripts\Quests\Interface\IQuestStory.cs" />
     <Compile Include="Assets\Scripts\LevelObjectTrigger.cs" />
+    <Compile Include="Assets\Scripts\Quests\Interface\IQuestModel.cs" />
     <Compile Include="Assets\Scripts\Interface\IProtector.cs" />
     <Compile Include="Assets\Scripts\AI\PatrolAIModel.cs" />
     <Compile Include="Assets\Scripts\View\BlockView.cs" />
@@ -77,9 +81,11 @@
     <Compile Include="Assets\Scripts\Player\PlayerConfigMenu.cs" />
     <Compile Include="Assets\Scripts\TileMapScripts\GenerateLevelView.cs" />
     <Compile Include="Assets\Scripts\View\CharacterView.cs" />
+    <Compile Include="Assets\Scripts\Quests\Interface\IQuest.cs" />
     <Compile Include="Assets\Scripts\IsDeath.cs" />
     <Compile Include="Assets\Scripts\View\LevelObjectView.cs" />
     <Compile Include="Assets\Scripts\CustomAnimation.cs" />
+    <Compile Include="Assets\Scripts\Quests\QuestStory.cs" />
     <Compile Include="Assets\Scripts\AI\ProtectorAI.cs" />
     <Compile Include="Assets\Scripts\AI\AIConfig.cs" />
     <Compile Include="Assets\Scripts\SpriteScripts\SpritesSequence.cs" />
@@ -99,15 +105,10 @@
     <Compile Include="Assets\Scripts\Player\MainHeroWalker.cs" />
     <Compile Include="Assets\Scripts\View\EnemyView.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
-    <Compile Include="Assets\Scripts\SpriteScripts\SpriteAnimator.cs" />
-    <Compile Include="Assets\Scripts\Quests\Interface\IQuest.cs" />
-    <Compile Include="Assets\Scripts\Quests\Interface\IQuestModel.cs" />
-    <Compile Include="Assets\Scripts\Quests\QuestObjectView.cs" />
-    <Compile Include="Assets\Scripts\Quests\Quest.cs" />
-    <Compile Include="Assets\Scripts\Quests\SwitchQuestModel.cs" />
     <Compile Include="Assets\Scripts\Quests\QuestConfigurator.cs" />
-    <Compile Include="Assets\Scripts\Quests\Interface\IQuestStory.cs" />
-    <Compile Include="Assets\Scripts\Quests\QuestStory.cs" />
+    <Compile Include="Assets\Scripts\Quests\Quest.cs" />
+    <Compile Include="Assets\Scripts\SpriteScripts\SpriteAnimator.cs" />
+    <Compile Include="Assets\Scripts\Quests\ResettableQuestStory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

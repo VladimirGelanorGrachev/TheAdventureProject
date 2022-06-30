@@ -19,12 +19,13 @@ public class QuestConfigurator : MonoBehaviour
 
     private readonly Dictionary<QuestType, Func<IQuestModel>> _questFactories = new Dictionary<QuestType, Func<IQuestModel>>()
     {
-        { QuestType.Switch, () => new SwitchQuestModel() }
+        { QuestType.Switch, () => new SwitchQuestModel() },
     };
 
     private readonly Dictionary<QuestStoryType, Func<List<IQuest>, IQuestStory>> _questStoryFactories = new Dictionary<QuestStoryType, Func<List<IQuest>, IQuestStory>>
     {
         { QuestStoryType.Common, questCollection => new QuestStory(questCollection) },
+        { QuestStoryType.Resettable, questColletion => new QuestStory(questColletion) },
     };
 
     private void Start()
