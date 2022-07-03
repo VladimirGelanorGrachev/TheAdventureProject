@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -9,9 +8,11 @@ public sealed class ResettableQuestStory : IQuestStory
     private readonly List<IQuest> _questsCollection;
     private int _currentIndex;
 
+    public bool IsDone => _questsCollection.All(value => value.IsCompleted);
+
     public ResettableQuestStory(List<IQuest> questCollection)
     {
-        _questsCollection = questCollection ?? throw new ArgumentNullException(nameof(questCollection));
+        _questsCollection = questCollection;
         Subscribe();
         ResetQuest();
     }       
@@ -22,8 +23,7 @@ public sealed class ResettableQuestStory : IQuestStory
         {
             quest.Completed += OnQuestCompleted;
         }
-    }
-    
+    }    
 
     private void UnSubscribe()
     {
@@ -55,9 +55,7 @@ public sealed class ResettableQuestStory : IQuestStory
         {
             quest.Reset();
         }
-    }
-
-    public bool IsDone => _questsCollection.All(value => value.IsCompleted);
+    }       
 
     public void Dispose()
     {

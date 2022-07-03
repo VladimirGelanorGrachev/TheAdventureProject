@@ -124,6 +124,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: 10
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -782,14 +794,14 @@ TextureImporter:
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_40: -28644749
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_25: -1282416126
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_13: 1649689872
-      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_53: -1817926725
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_44: -55539729
       Gun-Man-Idle 7: 1333326569
+      Gun-Man-Idle 8: 1476682615
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_30: 305762570
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_55: 1621527544
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_17: -318607530
-      Gun-Man-Idle 8: 1476682615
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_37: 1041756120
+      362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_53: -1817926725
       Gun-Man-Run 2: -1677341724
       Gun-Man-Death 2: -510423410
       362-3624634_clip-art-hero-spritesheet-with-transparent-background-2d-sprite-png_59: 391226567
